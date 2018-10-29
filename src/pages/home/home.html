@@ -1,14 +1,37 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Simple Converter
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-list>
+    <ion-item>
+      <ion-label floating color="dark">Valor</ion-label>
+      <ion-input type="number" [(ngModel)]="valor"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating color="dark">Conversor</ion-label>
+      <ion-select interface="popover" [(ngModel)]="conversor">
+        <ion-option selected value="c2f">Celsius para Fahrenheit</ion-option>
+        <ion-option value="p2m">Pés para metros</ion-option>        
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="dark">Inverter</ion-label>
+      <ion-toggle checked="false" [(ngModel)]="inverter"></ion-toggle>
+    </ion-item>
+
+
+  </ion-list>
+
+  <ion-fab right bottom>
+    <button ion-fab color="light" (click)="mostrarConversao()">
+      <ion-icon name="calculator"></ion-icon>
+    </button>    
+  </ion-fab>
 </ion-content>
