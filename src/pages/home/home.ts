@@ -27,8 +27,6 @@ export class HomePage {
   get conversor() { return this._conversor; }
   get invterter() { return this._inverter; }
 
-
-
   converter() {
     switch (this._conversor) {
       case 'c2f': return Conversor.celsius2far(this._valor, this._inverter);

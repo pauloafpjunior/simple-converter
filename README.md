@@ -1,5 +1,9 @@
 # Simple Converter
 
+Aplicativo que realiza conversões simples.
+
+![Screecast do app](https://github.com/pauloafpjunior/calculadora_imc/blob/master/Peek%2005-11-2018%2008-03.gif)
+
 ## Instalando
 
 Baixe ou clone o repositório em seu PC.
