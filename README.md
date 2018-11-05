@@ -2,7 +2,7 @@
 
 Aplicativo que realiza conversões simples.
 
-![Screecast do app](https://github.com/pauloafpjunior/calculadora_imc/blob/master/Peek%2005-11-2018%2008-03.gif)
+![Screecast do app](https://github.com/pauloafpjunior/simple-converter/blob/master/Peek%2005-11-2018%2008-07.gif)
 
 ## Instalando
 
